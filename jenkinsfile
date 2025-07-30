@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         EC2_USER = "ubuntu"
-        EC2_IP = "ec2-XX-XX-XX-XX.compute-1.amazonaws.com"
+        EC2_IP = "18.209.177.222"
         SSH_KEY = credentials('ec2-ssh-key')
     }
 
