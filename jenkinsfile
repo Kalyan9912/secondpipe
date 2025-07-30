@@ -7,7 +7,7 @@ pipeline {
         SSH_KEY = credentials('ec2-ssh-key')
     }
    tools {
-  maven 'Maven 3'
+  maven 'Maven_local'
 }
 
 
